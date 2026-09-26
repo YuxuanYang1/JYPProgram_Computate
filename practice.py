@@ -3,7 +3,6 @@ import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 import time
-import random
 from PyQt5.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout,
                               QLabel, QLineEdit, QPushButton, QFrame)
 from PyQt5.QtCore import Qt, pyqtSignal

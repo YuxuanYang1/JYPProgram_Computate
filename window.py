@@ -86,7 +86,6 @@ class MainWindow(QMainWindow):
         
     def on_logout(self):
         """退出登录，切回登录页"""
-        import config
         config.CurrentUser = ""
         self.login_page.input_name.clear()
         self.login_page.input_key.clear()
