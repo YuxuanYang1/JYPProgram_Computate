@@ -37,13 +37,6 @@ graph TD
     config --> practice
     data --> practice
     zbo --> practice
-    'string' --> user
-    'hashlib' --> user
-    config --> user
-    utils --> user
-    data --> user
-    menu --> user
-    admin --> user
     'time' --> utils
     'random' --> utils
     'string' --> utils
@@ -54,15 +47,15 @@ graph TD
     'warnings' --> utils
     'warnings' --> window
     config --> window
-    PyQt5 --> window
+    'PyQt5' --> window
     login --> window
     menu --> window
     practice --> window
     difficulty --> window
     display --> window
     admin --> window
-    time --> zbo
-    random --> zbo
+    'time' --> zbo
+    'random' --> zbo
     config --> zbo
     utils --> zbo
     data --> zbo
