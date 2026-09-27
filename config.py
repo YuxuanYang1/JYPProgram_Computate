@@ -1,11 +1,8 @@
-#config(V1.3-0920)
-NameList = ["ceshi", "JYP", "Anne"]
+#config(V1.3-start)
+NameList = []
 KeyList = [
-    'af7a60f26539969b81148c240ac730cce98b8d78ae54e9cea9f084a9d9631976',
-    '31582238f5a2fa5e1e04842bbbe1ce761d886bae78815685d1d167b8a645eb36',
-    '87937216b1a07cd5ca67f67ac5bf0bedf766205a88228968eabc468dddaa5ec5'
 ]
-ScoreList = [10, 139, 0]
+ScoreList = []
 
 import os
 import sys
@@ -43,11 +40,3 @@ CurrentUser = ""
 HistoryList = {}
 WrongList = {}
 Achievements = {}
-
-if __name__ == "__main__":
-    print("=== config.py 测试 ===")
-    print(f"用户数：{len(NameList)}")
-    print(f"用户名：{NameList}")
-    print(f"分数：{ScoreList}")
-    print(f"数据文件：{DATA_FILE}")
-    print(f"难度档位：{list(Difficulty.keys())}")
