@@ -1,4 +1,4 @@
-# difficulty.py(V1.3-0920)
+# difficulty.py(V1.3-start)
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
@@ -7,7 +7,7 @@ from PyQt5.QtWidgets import (QDialog, QVBoxLayout, QHBoxLayout,
 from PyQt5.QtCore import Qt
 
 import config
-from zbo import overfloatinput  # ← 但这是命令行的，GUI 里不能用
+from zbo import overfloatinput
 
 # 配色
 BG_COLOR = "#1e1e1e"
