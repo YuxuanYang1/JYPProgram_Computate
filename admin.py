@@ -1,4 +1,4 @@
-# admin.py(V1.3-0920)
+# admin.py(V1.3-start)
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
@@ -10,7 +10,7 @@ from PyQt5.QtCore import Qt, pyqtSignal
 
 import config
 from data import save_data, save_history
-from utils import getkey  # ← 但 getkey 是命令行的，GUI 里用 QInputDialog
+from utils import getkey 
 
 # 配色
 BG_COLOR = "#1e1e1e"
