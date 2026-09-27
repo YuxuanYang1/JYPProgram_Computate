@@ -1,4 +1,4 @@
-# utils.py(V1.2-0918)
+# utils.py(V1.2)
 import time
 import random
 import string
