@@ -1,4 +1,4 @@
-# zbo(V1.2-0918)
+# zbo(V1.2)
 import time
 import random
 import config
