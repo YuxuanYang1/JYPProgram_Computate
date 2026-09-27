@@ -1,4 +1,4 @@
-#data(V1.2-0918)
+#data(V1.2)
 import json
 import os
 import config
