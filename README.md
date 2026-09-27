@@ -1,9 +1,9 @@
 # JYPProgram_Computate
 一个计算练习小程序，python编写试做
 当前主入口为main，不过你仍需下载其他文件，我会在心情好时更新。
-你需要准备PyQt5
+!你需要准备PyQt5
 
-（
+"
 V0-Alpha  2026.9.5
 基于框架 V0-pre 版本，进一步修饰完善，首次增加可用功能（整数加、乘），但代码急剧膨胀。
 针对冗余代码精简，压缩15%的代码同时增加整数减法练习。
@@ -27,7 +27,7 @@ V1.1 2026.9.17
 V1.2 2026.9.18
 做成了分模块模式。
 创建：admin,announcement,config,data,history,main,menu,user,utils,zbo
-）
+"
 
 V1.3-start 2026.9.25
 成功实现图形化。
@@ -39,5 +39,5 @@ V1.3-poblic 2026.9.26
 上传至GitHub，并做了些修正
 
 Lastest Update:2026.9.26
-Current Version:V1.3-poblic-09271500
+Current Version:V1.3-poblic-09271700
 (2026.9.26,YuxuanYang1)
